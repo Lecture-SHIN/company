@@ -5,7 +5,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CommonController {
- kdh3
+	
+	@GetMapping("/api/kmj2")
+	public String infoKmj2() {
+		return "kmj2";
+	}
 
 	@GetMapping("/api/KDH3")
 	public String infoKdh3() {
@@ -16,5 +20,5 @@ public class CommonController {
 		return "1_lsy";
  main
 	}
-	
+
 }
