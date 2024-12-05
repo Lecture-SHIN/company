@@ -28,7 +28,7 @@ public class DeptAPIController {
 	}
 	
 	@GetMapping("/app")
-	public String deptApi() {
+	public String appApi() {
 		return "Project Changed";
 	}
 
