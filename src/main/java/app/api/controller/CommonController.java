@@ -1,0 +1,13 @@
+package app.api.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CommonController {
+	
+	@GetMapping("/kdh1")
+	public String infoKdh1() {
+		return "kdh";
+	}
+}
