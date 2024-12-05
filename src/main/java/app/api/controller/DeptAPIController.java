@@ -32,6 +32,11 @@ public class DeptAPIController {
 		return "Project Changed";
 	}
 
+	@GetMapping("/ksk2")
+	public String ksk2() {
+		return "ksk2";
+	}
+
 	@GetMapping("/depts")
 	public List<Dept> getDepts() {
 		List<Dept> depts = deptService.getDepts();
