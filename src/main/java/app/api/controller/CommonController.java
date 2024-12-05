@@ -8,7 +8,7 @@ public class CommonController {
 
     @GetMapping("/api/LHB2")
     public String LHB2() {
-        return "LHB2 ";
+        return "LHB2";
     }
 
 }
