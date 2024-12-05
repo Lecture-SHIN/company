@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CommonController {
 
 
-    @GetMapping("/ksj1")
+    @GetMapping("/api/ksj1")
     public String infoKsj1() {
         return "ksj1";
     }
